@@ -1,4 +1,4 @@
-FROM debian:bookworm-20251229-slim AS devenv-base
+FROM ubuntu:22.04
 
 LABEL org.opencontainers.image.description="Base for Development Environment"
 
