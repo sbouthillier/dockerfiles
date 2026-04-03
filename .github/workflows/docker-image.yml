@@ -22,7 +22,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: ghcr.io/sbouthillier/dockerfiles
+        images: ghcr.io/sbouthillier/embedded-base
         tags: |
           type=sha,enable=${{ github.ref_type == 'branch' }}
           type=ref,event=tag
